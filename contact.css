@@ -1,6 +1,7 @@
 .main {
 padding:  0;
 margin: 0;
+min-height: calc(100vh - 120px);
 }
 .site-header-inner {
 position: relative;
@@ -29,15 +30,11 @@ background-size: cover;
 background-position: center;
 color: white;
 }
-.centered {
-position: relative;
-margin: auto;
-width: 50%:;
-}
 .contain {
 width: 450px;
 background: #fff;
-margin: 100px auto;
+margin:  auto;
+margin-top: 10%;
 box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
 -moz-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
 -webkit-box-shadow: 0px 10px 9.9px 0.1px rgba(0, 0, 0, 0.05);
@@ -65,9 +62,11 @@ color: black;
 width: 100px;
 }
 .site-footer {
+height: 30px;
 font-size: 14px;
 line-height: 22px;
 letter-spacing: 0px
+padding-bottom:0px;
 }
 .site-footer a {
 color: #8A94A7;
