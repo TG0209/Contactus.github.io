@@ -6,6 +6,7 @@ position: relative;
 width: 100%;
 background: #2389a9;
 border-color: #2389a9;
+margin: auto auto;
 }
 body{
 background:  rgb(8,8,8,0.9);
@@ -30,9 +31,14 @@ form{
 color: #fff;
 }
 :root {
-  --size-divisor: 3;
+--size-divisor: 3;
 }
-
+.form-group{
+padding-bottom: 10px;
+}
+.col-form-label{
+padding : auto auto;
+}
 .container {
 width: calc(800px / var(--size-divisor));
 background: #141414 ;
@@ -53,24 +59,23 @@ padding: 40px 60px 32px 60px;
 position: relative;
 z-index: 99;
 }
-
 @media (min-width: 576px) {
-  :root {
-    --size-divisor: 0.8;
-  }
+:root {
+--size-divisor: 0.8;
+}
 }
 @media (min-width: 768px) {
-  :root {
-    --size-divisor: 0.9;
-  }
+:root {
+--size-divisor: 0.9;
 }
-@media (min-width: 992px) { 
-  :root {
-    --size-divisor: 1.1;
-  }
 }
-@media (min-width: 1200px) { 
-  :root {
-    --size-divisor: 1.4;
-  }
+@media (min-width: 992px) {
+:root {
+--size-divisor: 1.1;
+}
+}
+@media (min-width: 1200px) {
+:root {
+--size-divisor: 1.4;
+}
 }
